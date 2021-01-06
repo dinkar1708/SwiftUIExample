@@ -24,8 +24,6 @@
 		7878E35025A4483900AEE227 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7878E35325A4483900AEE227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7878E35825A4483900AEE227 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7878E35A25A4483900AEE227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7878E35B25A4483900AEE227 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		7878E36C25A4498600AEE227 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +50,6 @@
 			children = (
 				7878E34825A4483800AEE227 /* Shared */,
 				7878E35225A4483900AEE227 /* iOS */,
-				7878E35925A4483900AEE227 /* macOS */,
 				7878E35125A4483900AEE227 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,15 +80,6 @@
 				7878E35325A4483900AEE227 /* Info.plist */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		7878E35925A4483900AEE227 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				7878E35A25A4483900AEE227 /* Info.plist */,
-				7878E35B25A4483900AEE227 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
