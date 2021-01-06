@@ -13,6 +13,8 @@
 		7878E35F25A4483900AEE227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E34A25A4483800AEE227 /* ContentView.swift */; };
 		7878E36025A4483900AEE227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7878E34B25A4483900AEE227 /* Assets.xcassets */; };
 		7878E36125A4483900AEE227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7878E34B25A4483900AEE227 /* Assets.xcassets */; };
+		7878E36D25A4498700AEE227 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* SheetView.swift */; };
+		7878E36E25A4498700AEE227 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* SheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		7878E35825A4483900AEE227 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7878E35A25A4483900AEE227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7878E35B25A4483900AEE227 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7878E36C25A4498600AEE227 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */,
 				7878E34A25A4483800AEE227 /* ContentView.swift */,
 				7878E34B25A4483900AEE227 /* Assets.xcassets */,
+				7878E36C25A4498600AEE227 /* SheetView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -189,6 +193,7 @@
 			files = (
 				7878E35E25A4483900AEE227 /* ContentView.swift in Sources */,
 				7878E35C25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */,
+				7878E36D25A4498700AEE227 /* SheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			files = (
 				7878E35F25A4483900AEE227 /* ContentView.swift in Sources */,
 				7878E35D25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */,
+				7878E36E25A4498700AEE227 /* SheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
