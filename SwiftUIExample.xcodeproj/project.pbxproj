@@ -9,22 +9,19 @@
 /* Begin PBXBuildFile section */
 		7878E35C25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */; };
 		7878E35D25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */; };
-		7878E35E25A4483900AEE227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E34A25A4483800AEE227 /* ContentView.swift */; };
-		7878E35F25A4483900AEE227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E34A25A4483800AEE227 /* ContentView.swift */; };
 		7878E36025A4483900AEE227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7878E34B25A4483900AEE227 /* Assets.xcassets */; };
 		7878E36125A4483900AEE227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7878E34B25A4483900AEE227 /* Assets.xcassets */; };
-		7878E36D25A4498700AEE227 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* SheetView.swift */; };
-		7878E36E25A4498700AEE227 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* SheetView.swift */; };
+		7878E36D25A4498700AEE227 /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* ModalSheetView.swift */; };
+		7878E36E25A4498700AEE227 /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* ModalSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
-		7878E34A25A4483800AEE227 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7878E34B25A4483900AEE227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7878E35025A4483900AEE227 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7878E35325A4483900AEE227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7878E35825A4483900AEE227 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7878E36C25A4498600AEE227 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		7878E36C25A4498600AEE227 /* ModalSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +42,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7856A44026F96BAD00805C84 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7856A44326F96BBA00805C84 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				7878E36C25A4498600AEE227 /* ModalSheetView.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		7878E34325A4483800AEE227 = {
 			isa = PBXGroup;
 			children = (
@@ -57,10 +70,9 @@
 		7878E34825A4483800AEE227 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */,
-				7878E34A25A4483800AEE227 /* ContentView.swift */,
+				7856A44326F96BBA00805C84 /* Example */,
+				7856A44026F96BAD00805C84 /* Application */,
 				7878E34B25A4483900AEE227 /* Assets.xcassets */,
-				7878E36C25A4498600AEE227 /* SheetView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -179,9 +191,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7878E35E25A4483900AEE227 /* ContentView.swift in Sources */,
 				7878E35C25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */,
-				7878E36D25A4498700AEE227 /* SheetView.swift in Sources */,
+				7878E36D25A4498700AEE227 /* ModalSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,9 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7878E35F25A4483900AEE227 /* ContentView.swift in Sources */,
 				7878E35D25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */,
-				7878E36E25A4498700AEE227 /* SheetView.swift in Sources */,
+				7878E36E25A4498700AEE227 /* ModalSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +324,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AM2A35C3AY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -324,6 +336,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dinakar.SwiftUIExample;
 				PRODUCT_NAME = SwiftUIExample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,7 +348,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AM2A35C3AY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -345,6 +360,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dinakar.SwiftUIExample;
 				PRODUCT_NAME = SwiftUIExample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
