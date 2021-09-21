@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct SwiftUIExampleApp: App {
+    @Environment(\.scenePhase) private var scenePhase
     var body: some Scene {
         WindowGroup {
             ModalSheetView()
+        }.onChange(of: scenePhase) { phase in
+            print("onChange scenePhase \(phase)")
+            switch phase {
+            case .active:
+                print("active")
+            case .inactive:
+                print("inactive")
+            case .background:
+                print("background")
+            @unknown default:
+                print("unknown")
+            }
         }
     }
 }
