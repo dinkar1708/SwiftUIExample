@@ -21,3 +21,31 @@ onChange scenePhase background
 background
 AppDelegate applicationWillTerminate
 ```
+
+### SceneDelegate - life cycle 
+```
+- press home button
+
+AppDelegate willFinishLaunchingWithOptions
+AppDelegate didFinishLaunchingWithOptions
+SceneDelegate sceneWillEnterForeground
+onChange scenePhase active
+active
+SceneDelegate sceneDidBecomeActive
+onChange scenePhase inactive
+inactive
+SceneDelegate sceneWillResignActive
+onChange scenePhase background
+background
+SceneDelegate sceneDidEnterBackground
+
+- press app icon again...
+
+onChange scenePhase inactive
+inactive
+SceneDelegate sceneWillEnterForeground
+onChange scenePhase active
+active
+SceneDelegate sceneDidBecomeActive
+
+```
