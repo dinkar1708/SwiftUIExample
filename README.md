@@ -9,3 +9,17 @@ onChange scenePhase background
 onChange scenePhase inactive
 onChange scenePhase active
 '''
+
+'''
+AppDelegate - life cycle - clear app after run
+
+AppDelegate willFinishLaunchingWithOptions
+AppDelegate didFinishLaunchingWithOptions
+onChange scenePhase active
+active
+onChange scenePhase inactive
+inactive
+onChange scenePhase background
+background
+AppDelegate applicationWillTerminate
+'''
