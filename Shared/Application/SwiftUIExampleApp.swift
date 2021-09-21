@@ -13,7 +13,10 @@ struct SwiftUIExampleApp: App {
     @Environment(\.scenePhase) private var scenePhase
     var body: some Scene {
         WindowGroup {
-            ModalSheetView()
+            //            ModalSheetView()
+                        MemoryGraphView()
+//            MemoryGraphWithoutLeakView()
+            
         }.onChange(of: scenePhase) { phase in
             print("onChange scenePhase \(phase)")
             switch phase {

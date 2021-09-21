@@ -11,6 +11,12 @@
 		7856A45026F96E1700805C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A44E26F96E1700805C84 /* AppDelegate.swift */; };
 		7856A45426F9710500805C84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A45326F9710500805C84 /* SceneDelegate.swift */; };
 		7856A45526F9710500805C84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A45326F9710500805C84 /* SceneDelegate.swift */; };
+		7856A46126F97BB200805C84 /* MemoryGraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A46026F97BB200805C84 /* MemoryGraphModel.swift */; };
+		7856A46226F97BB200805C84 /* MemoryGraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A46026F97BB200805C84 /* MemoryGraphModel.swift */; };
+		7856A46626F97BEE00805C84 /* MemoryGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A46526F97BEE00805C84 /* MemoryGraphView.swift */; };
+		7856A46726F97BEE00805C84 /* MemoryGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A46526F97BEE00805C84 /* MemoryGraphView.swift */; };
+		7856A46F26F9831D00805C84 /* MemoryGraphWithoutLeakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A46E26F9831D00805C84 /* MemoryGraphWithoutLeakView.swift */; };
+		7856A47026F9831D00805C84 /* MemoryGraphWithoutLeakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A46E26F9831D00805C84 /* MemoryGraphWithoutLeakView.swift */; };
 		7878E35C25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */; };
 		7878E35D25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */; };
 		7878E36025A4483900AEE227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7878E34B25A4483900AEE227 /* Assets.xcassets */; };
@@ -22,6 +28,9 @@
 /* Begin PBXFileReference section */
 		7856A44E26F96E1700805C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7856A45326F9710500805C84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7856A46026F97BB200805C84 /* MemoryGraphModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGraphModel.swift; sourceTree = "<group>"; };
+		7856A46526F97BEE00805C84 /* MemoryGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGraphView.swift; sourceTree = "<group>"; };
+		7856A46E26F9831D00805C84 /* MemoryGraphWithoutLeakView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryGraphWithoutLeakView.swift; sourceTree = "<group>"; };
 		7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
 		7878E34B25A4483900AEE227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7878E35025A4483900AEE227 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +70,20 @@
 		7856A44326F96BBA00805C84 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				7856A45826F97B9600805C84 /* MemoryGraph */,
 				7878E36C25A4498600AEE227 /* ModalSheetView.swift */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		7856A45826F97B9600805C84 /* MemoryGraph */ = {
+			isa = PBXGroup;
+			children = (
+				7856A46026F97BB200805C84 /* MemoryGraphModel.swift */,
+				7856A46526F97BEE00805C84 /* MemoryGraphView.swift */,
+				7856A46E26F9831D00805C84 /* MemoryGraphWithoutLeakView.swift */,
+			);
+			path = MemoryGraph;
 			sourceTree = "<group>";
 		};
 		7878E34325A4483800AEE227 = {
@@ -199,8 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7856A46626F97BEE00805C84 /* MemoryGraphView.swift in Sources */,
 				7856A44F26F96E1700805C84 /* AppDelegate.swift in Sources */,
+				7856A46126F97BB200805C84 /* MemoryGraphModel.swift in Sources */,
 				7878E35C25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */,
+				7856A46F26F9831D00805C84 /* MemoryGraphWithoutLeakView.swift in Sources */,
 				7878E36D25A4498700AEE227 /* ModalSheetView.swift in Sources */,
 				7856A45426F9710500805C84 /* SceneDelegate.swift in Sources */,
 			);
@@ -210,8 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7856A46726F97BEE00805C84 /* MemoryGraphView.swift in Sources */,
 				7856A45026F96E1700805C84 /* AppDelegate.swift in Sources */,
+				7856A46226F97BB200805C84 /* MemoryGraphModel.swift in Sources */,
 				7878E35D25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */,
+				7856A47026F9831D00805C84 /* MemoryGraphWithoutLeakView.swift in Sources */,
 				7878E36E25A4498700AEE227 /* ModalSheetView.swift in Sources */,
 				7856A45526F9710500805C84 /* SceneDelegate.swift in Sources */,
 			);
