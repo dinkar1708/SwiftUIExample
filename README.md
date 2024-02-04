@@ -50,11 +50,12 @@ SceneDelegate sceneDidBecomeActive
 
 ```
 
-## MemoryGraphView - Memory leak example with strong referen person and apartment, ojects are seen in graph and memory is not cleaned up - 
-
+## MemoryGraphView - Memory Leak Example with Strong References
+This example demonstrates a memory leak involving strong references to a person and an apartment. Objects are visible in the graph, and memory is not properly cleaned up.
 <img width="800" alt="Screen Shot 2021-09-21 at 12 11 04" src="https://user-images.githubusercontent.com/14831652/134106063-68ee9681-57fc-4c1d-9270-30bb7e835384.png">
 
-## MemoryGraphWithoutLeakView - Memory leak solved by using weak reference and memory is cleaned properly, objects are not seen in graph
+## MemoryGraphWithoutLeakView - Memory Leak Solved with Weak References
+Memory issues have been resolved by implementing weak references, ensuring proper memory cleanup. Objects are no longer visible in the graph.
 <img width="800" alt="Screen Shot 2021-09-21 at 12 14 34" src="https://user-images.githubusercontent.com/14831652/134106233-7cc66011-946f-4f64-9005-686cb935272f.png">
 
 
