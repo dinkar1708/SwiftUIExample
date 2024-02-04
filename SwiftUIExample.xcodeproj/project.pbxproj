@@ -57,23 +57,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7856A44026F96BAD00805C84 /* Application */ = {
+		47826A0E2B6FAD0D0043DEC5 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				7878E36C25A4498600AEE227 /* ModalSheetView.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		7856A44026F96BAD00805C84 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
 				7878E34925A4483800AEE227 /* SwiftUIExampleApp.swift */,
 				7856A44E26F96E1700805C84 /* AppDelegate.swift */,
 				7856A45326F9710500805C84 /* SceneDelegate.swift */,
 			);
-			path = Application;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
-		7856A44326F96BBA00805C84 /* Example */ = {
+		7856A44326F96BBA00805C84 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				47826A0E2B6FAD0D0043DEC5 /* Modal */,
 				7856A45826F97B9600805C84 /* MemoryGraph */,
-				7878E36C25A4498600AEE227 /* ModalSheetView.swift */,
 			);
-			path = Example;
+			path = Feature;
 			sourceTree = "<group>";
 		};
 		7856A45826F97B9600805C84 /* MemoryGraph */ = {
@@ -89,20 +97,20 @@
 		7878E34325A4483800AEE227 = {
 			isa = PBXGroup;
 			children = (
-				7878E34825A4483800AEE227 /* Shared */,
+				7878E34825A4483800AEE227 /* App */,
 				7878E35225A4483900AEE227 /* iOS */,
 				7878E35125A4483900AEE227 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7878E34825A4483800AEE227 /* Shared */ = {
+		7878E34825A4483800AEE227 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				7856A44326F96BBA00805C84 /* Example */,
-				7856A44026F96BAD00805C84 /* Application */,
+				7856A44326F96BBA00805C84 /* Feature */,
+				7856A44026F96BAD00805C84 /* Configuration */,
 				7878E34B25A4483900AEE227 /* Assets.xcassets */,
 			);
-			path = Shared;
+			path = App;
 			sourceTree = "<group>";
 		};
 		7878E35125A4483900AEE227 /* Products */ = {
