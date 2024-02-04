@@ -16,7 +16,6 @@ struct SwiftUIExampleApp: App {
             //ModalSheetView()
             MemoryGraphView()
             // MemoryGraphWithoutLeakView()
-            
         }.onChange(of: scenePhase) { phase in
             print("onChange scenePhase \(phase)")
             switch phase {
