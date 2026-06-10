@@ -8,6 +8,7 @@
 import SwiftUI
 
 // MARK: - Data Model
+@available(iOS 15.0, *)
 struct Post: Codable, Identifiable {
     let id: Int
     let userId: Int
@@ -16,6 +17,7 @@ struct Post: Codable, Identifiable {
 }
 
 // MARK: - Network Service
+@available(iOS 15.0, *)
 class NetworkService {
     static let shared = NetworkService()
 
@@ -28,6 +30,7 @@ class NetworkService {
 }
 
 // MARK: - View Model
+@available(iOS 15.0, *)
 @MainActor
 class PostsViewModel: ObservableObject {
     @Published var posts: [Post] = []
@@ -51,6 +54,7 @@ class PostsViewModel: ObservableObject {
 }
 
 // MARK: - Async/Await View
+@available(iOS 15.0, *)
 struct AsyncAwaitView: View {
     @StateObject private var viewModel = PostsViewModel()
 
@@ -141,7 +145,11 @@ struct AsyncAwaitView: View {
 }
 
 #Preview {
-    NavigationView {
-        AsyncAwaitView()
+    if #available(iOS 15.0, *) {
+        NavigationView {
+            AsyncAwaitView()
+        }
+    } else {
+        Text("Requires iOS 15+")
     }
 }

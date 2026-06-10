@@ -112,7 +112,7 @@ struct FormExampleView: View {
                 Toggle(isOn: $enableDarkMode) {
                     HStack {
                         Image(systemName: "moon.fill")
-                            .foregroundColor(.indigo)
+                            .foregroundColor(Color(red: 0.3, green: 0.2, blue: 0.7))
                             .frame(width: 30)
                         VStack(alignment: .leading, spacing: 2) {
                             Text("Dark Mode")
@@ -147,7 +147,7 @@ struct FormExampleView: View {
                 } label: {
                     HStack {
                         Image(systemName: "globe")
-                            .foregroundColor(.cyan)
+                            .foregroundColor(Color(red: 0, green: 0.7, blue: 0.9))
                             .frame(width: 30)
                         Text("Language")
                     }
@@ -170,7 +170,7 @@ struct FormExampleView: View {
                     }
 
                     Slider(value: $sliderValue, in: 0...100, step: 5)
-                        .tint(.pink)
+                        .accentColor(.pink)
 
                     HStack {
                         Image(systemName: "speaker")
@@ -204,17 +204,19 @@ struct FormExampleView: View {
                 .foregroundColor(isFormValid ? .white : .gray)
                 .listRowBackground(
                     RoundedRectangle(cornerRadius: 10)
-                        .fill(isFormValid ? Color.blue.gradient : Color.gray.opacity(0.3))
+                        .fill(isFormValid ? Color.blue : Color.gray.opacity(0.3))
                         .padding(.vertical, 4)
                 )
             }
         }
         .navigationTitle("Form Example")
         .navigationBarTitleDisplayMode(.large)
-        .alert("Success!", isPresented: $showingSuccessAlert) {
-            Button("OK", role: .cancel) { }
-        } message: {
-            Text("Account created successfully for \(username)!")
+        .alert(isPresented: $showingSuccessAlert) {
+            Alert(
+                title: Text("Success!"),
+                message: Text("Account created successfully for \(username)!"),
+                dismissButton: .default(Text("OK"))
+            )
         }
     }
 

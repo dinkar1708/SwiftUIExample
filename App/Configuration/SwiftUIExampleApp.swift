@@ -149,13 +149,15 @@ struct ContentView: View {
                         )
                     }
 
-                    NavigationLink(destination: AsyncAwaitView()) {
-                        ExampleRow(
-                            title: "Async/Await",
-                            subtitle: "Modern networking with async/await",
-                            icon: "arrow.triangle.2.circlepath",
-                            color: Color(red: 0.4, green: 0.9, blue: 0.7)
-                        )
+                    if #available(iOS 15.0, *) {
+                        NavigationLink(destination: AsyncAwaitView()) {
+                            ExampleRow(
+                                title: "Async/Await",
+                                subtitle: "Modern networking with async/await",
+                                icon: "arrow.triangle.2.circlepath",
+                                color: Color(red: 0.4, green: 0.9, blue: 0.7)
+                            )
+                        }
                     }
                 } header: {
                     Text("Data & State")

@@ -117,7 +117,7 @@ struct GridLayoutView: View {
                         LazyHGrid(rows: [GridItem(.fixed(80)), GridItem(.fixed(80))], spacing: 15) {
                             ForEach(colors, id: \.self) { color in
                                 RoundedRectangle(cornerRadius: 10)
-                                    .fill(color.gradient)
+                                    .fill(LinearGradient(colors: [color.opacity(0.6), color], startPoint: .top, endPoint: .bottom))
                                     .frame(width: 120)
                             }
                         }

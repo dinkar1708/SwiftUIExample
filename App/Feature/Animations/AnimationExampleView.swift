@@ -43,7 +43,7 @@ struct AnimationCard: View {
                     .padding()
                     .background(
                         RoundedRectangle(cornerRadius: 12)
-                            .fill(color.gradient)
+                            .fill(LinearGradient(colors: [color.opacity(0.8), color], startPoint: .leading, endPoint: .trailing))
                     )
             }
         }
@@ -70,7 +70,7 @@ struct AnimationExampleView: View {
                 VStack(spacing: 12) {
                     Image(systemName: "wand.and.stars")
                         .font(.system(size: 50))
-                        .foregroundStyle(.purple.gradient)
+                        .foregroundColor(.purple)
 
                     Text("SwiftUI Animations")
                         .font(.title)
@@ -92,7 +92,7 @@ struct AnimationExampleView: View {
                     content: AnyView(
                         Image(systemName: "arrow.triangle.2.circlepath")
                             .font(.system(size: 70))
-                            .foregroundStyle(.blue.gradient)
+                            .foregroundColor(.blue)
                             .rotationEffect(.degrees(isRotated ? 360 : 0))
                             .animation(.easeInOut(duration: 1.0), value: isRotated)
                     ),
@@ -112,7 +112,7 @@ struct AnimationExampleView: View {
                         Circle()
                             .fill(
                                 LinearGradient(
-                                    colors: [.green, .mint],
+                                    colors: [.green, Color(red: 0.4, green: 0.9, blue: 0.7)],
                                     startPoint: .topLeading,
                                     endPoint: .bottomTrailing
                                 )
@@ -161,13 +161,7 @@ struct AnimationExampleView: View {
                     content: AnyView(
                         Image(systemName: "star.fill")
                             .font(.system(size: 70))
-                            .foregroundStyle(
-                                LinearGradient(
-                                    colors: [.pink, .purple],
-                                    startPoint: .topLeading,
-                                    endPoint: .bottomTrailing
-                                )
-                            )
+                            .foregroundColor(.pink)
                             .opacity(opacity)
                             .animation(.easeInOut(duration: 1.0), value: opacity)
                     ),
@@ -186,7 +180,7 @@ struct AnimationExampleView: View {
                     content: AnyView(
                         Image(systemName: "basketball.fill")
                             .font(.system(size: 60))
-                            .foregroundStyle(.orange.gradient)
+                            .foregroundColor(.orange)
                             .offset(y: showBounce ? -40 : 0)
                             .animation(
                                 showBounce ?

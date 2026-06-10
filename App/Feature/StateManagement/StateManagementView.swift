@@ -66,12 +66,17 @@ struct StateManagementView: View {
                         Button("Increment") {
                             simpleCounter += 1
                         }
-                        .buttonStyle(.borderedProminent)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
 
                         Button("Reset") {
                             simpleCounter = 0
                         }
-                        .buttonStyle(.bordered)
+                        .padding()
+                        .background(Color.gray.opacity(0.2))
+                        .cornerRadius(8)
                     }
 
                     Text("@State is for simple value types owned by the view")
@@ -117,19 +122,25 @@ struct StateManagementView: View {
                         Button(action: viewModel.increment) {
                             Label("Increment", systemImage: "plus")
                         }
-                        .buttonStyle(.borderedProminent)
-                        .tint(.green)
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
 
                         Button(action: viewModel.decrement) {
                             Label("Decrement", systemImage: "minus")
                         }
-                        .buttonStyle(.borderedProminent)
-                        .tint(.red)
+                        .padding()
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
 
                         Button(action: viewModel.reset) {
                             Label("Reset", systemImage: "arrow.counterclockwise")
                         }
-                        .buttonStyle(.bordered)
+                        .padding()
+                        .background(Color.gray.opacity(0.2))
+                        .cornerRadius(8)
                     }
 
                     Text("@StateObject creates and owns the observable object lifecycle")

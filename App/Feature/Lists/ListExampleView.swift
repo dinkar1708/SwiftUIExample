@@ -34,7 +34,7 @@ struct ListExampleView: View {
                 VStack(spacing: 20) {
                     Image(systemName: "list.bullet.rectangle")
                         .font(.system(size: 70))
-                        .foregroundStyle(.gray.opacity(0.5))
+                        .foregroundColor(Color.gray.opacity(0.5))
 
                     Text("No Items Yet")
                         .font(.title2)
@@ -142,23 +142,29 @@ struct ListExampleView: View {
                     }
                 }
             }
-            .presentationDetents([.medium])
         }
-        .overlay(alignment: .bottom) {
+        ZStack {
             if !items.isEmpty {
-                HStack {
-                    Image(systemName: "info.circle")
-                        .foregroundColor(.blue)
-                    Text("Swipe left to delete • Long press to reorder")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
+                VStack {
+                    Spacer()
+                    bottomInfoView
                 }
-                .padding()
-                .background(.ultraThinMaterial)
-                .cornerRadius(20)
-                .padding()
             }
         }
+    }
+
+    var bottomInfoView: some View {
+        HStack {
+            Image(systemName: "info.circle")
+                .foregroundColor(.blue)
+            Text("Swipe left to delete • Long press to reorder")
+                .font(.caption)
+                .foregroundColor(.secondary)
+        }
+        .padding()
+        .background(Color.white.opacity(0.9))
+        .cornerRadius(20)
+        .padding()
     }
 
     private func addItem() {
