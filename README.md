@@ -2,6 +2,25 @@
 
 A collection of practical SwiftUI examples demonstrating common iOS development patterns and best practices. This project is perfect for learning SwiftUI fundamentals and understanding important iOS concepts like memory management and app lifecycle.
 
+## Screens
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 18 12" src="https://github.com/user-attachments/assets/bba4042e-e87d-4035-b800-744605b75810" />
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 18 37" src="https://github.com/user-attachments/assets/e7379634-c115-45da-8d6f-113a7f7760ec" />
+
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 18 40" src="https://github.com/user-attachments/assets/a2214217-62c0-4da5-8312-05cc3735dacb" />
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 18 44" src="https://github.com/user-attachments/assets/8f278885-66bb-4d43-ab5d-d534e796507d" />
+
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 18 47" src="https://github.com/user-attachments/assets/99fa5209-ac67-4f09-8e8c-d0c28afb1f09" />
+
+
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 18 50" src="https://github.com/user-attachments/assets/89ef395f-5565-4088-a439-fdd92ec29455" />
+
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 18 53" src="https://github.com/user-attachments/assets/93aafe9a-1c24-41df-8164-595241745df1" />
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 19 00" src="https://github.com/user-attachments/assets/f3eaf32c-0a65-4dea-a0c8-e65bf6ffc811" />
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 19 07" src="https://github.com/user-attachments/assets/e7804054-ae0d-4a24-85fb-0a7c6cbb6ab8" />
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 19 15" src="https://github.com/user-attachments/assets/645a734f-51e8-41e1-a61a-8d81efed6bd3" />
+
+<img width="1170" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 19 21" src="https://github.com/user-attachments/assets/9ef23a2d-7f93-413e-9881-e2b9d98f2c25" />
+
 ## What You Will Learn
 
 This project contains real working examples of SwiftUI features you will use in production apps. Each example is interactive and includes detailed explanations right in the UI.
