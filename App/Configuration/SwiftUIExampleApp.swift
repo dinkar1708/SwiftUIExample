@@ -11,23 +11,36 @@ import SwiftUI
 struct SwiftUIExampleApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @Environment(\.scenePhase) private var scenePhase
+
     var body: some Scene {
         WindowGroup {
-            //ModalSheetView()
-            MemoryGraphView()
-            // MemoryGraphWithoutLeakView()
-        }.onChange(of: scenePhase) { phase in
+            ContentView()
+        }
+        .onChange(of: scenePhase) { phase in
             print("onChange scenePhase \(phase)")
             switch phase {
             case .active:
-                print("active")
+                print("App is active")
             case .inactive:
-                print("inactive")
+                print("App is inactive")
             case .background:
-                print("background")
+                print("App is in background")
             @unknown default:
-                print("unknown")
+                print("Unknown phase")
             }
+        }
+    }
+}
+
+struct ContentView: View {
+    var body: some View {
+        NavigationView {
+            List {
+                NavigationLink("Modal Sheet Demo", destination: ModalSheetView())
+                NavigationLink("Memory Leak Example", destination: MemoryGraphView())
+                NavigationLink("Fixed Memory Example", destination: MemoryGraphWithoutLeakView())
+            }
+            .navigationTitle("SwiftUI Examples")
         }
     }
 }
