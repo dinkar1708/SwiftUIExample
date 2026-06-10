@@ -19,7 +19,7 @@ A collection of practical SwiftUI examples demonstrating common iOS development 
 <img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 19 07" src="https://github.com/user-attachments/assets/e7804054-ae0d-4a24-85fb-0a7c6cbb6ab8" />
 <img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 19 15" src="https://github.com/user-attachments/assets/645a734f-51e8-41e1-a61a-8d81efed6bd3" />
 
-<img width="1170" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 19 21" src="https://github.com/user-attachments/assets/9ef23a2d-7f93-413e-9881-e2b9d98f2c25" />
+<img width="400" height="900" alt="Simulator Screenshot - iPhone 17e - 2026-06-10 at 17 19 21" src="https://github.com/user-attachments/assets/9ef23a2d-7f93-413e-9881-e2b9d98f2c25" />
 
 ## What You Will Learn
 
