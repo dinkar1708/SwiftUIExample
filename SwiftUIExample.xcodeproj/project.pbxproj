@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041B2785BFAB5438E06B9471 /* TabViewExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB784DF4589095572C808AF /* TabViewExampleView.swift */; };
+		0D59ED2A2733185463876E9C /* GestureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3172C9490396E8CEB55017A3 /* GestureExampleView.swift */; };
+		2DBB09B8D69390D1192F389C /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9445C7ED73FBB0732548628E /* ListExampleView.swift */; };
+		5A43D4845D1ABE9E303C8992 /* FormExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A98812A91B076BF74A1347 /* FormExampleView.swift */; };
 		7856A44F26F96E1700805C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A44E26F96E1700805C84 /* AppDelegate.swift */; };
 		7856A45026F96E1700805C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A44E26F96E1700805C84 /* AppDelegate.swift */; };
 		7856A45426F9710500805C84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856A45326F9710500805C84 /* SceneDelegate.swift */; };
@@ -23,9 +27,17 @@
 		7878E36125A4483900AEE227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7878E34B25A4483900AEE227 /* Assets.xcassets */; };
 		7878E36D25A4498700AEE227 /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* ModalSheetView.swift */; };
 		7878E36E25A4498700AEE227 /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* ModalSheetView.swift */; };
+		7AC5BF072ECD4133221CC733 /* AsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8EE61EF56C17CFEBFA1B8 /* AsyncAwaitView.swift */; };
+		9855B6CC3268D3AB035EAD3B /* AnimationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AA26CBA3716F8A4E97637 /* AnimationExampleView.swift */; };
+		C7C642F8C7055257217B40CF /* GridLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A357734999E6F13B8F0932E7 /* GridLayoutView.swift */; };
+		C83F640CD6A72C0D38666AD5 /* StateManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5CCE678106E32A8455AE4F /* StateManagementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06A98812A91B076BF74A1347 /* FormExampleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormExampleView.swift; sourceTree = "<group>"; };
+		3172C9490396E8CEB55017A3 /* GestureExampleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GestureExampleView.swift; sourceTree = "<group>"; };
+		5DB784DF4589095572C808AF /* TabViewExampleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabViewExampleView.swift; sourceTree = "<group>"; };
+		6C5CCE678106E32A8455AE4F /* StateManagementView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StateManagementView.swift; sourceTree = "<group>"; };
 		7856A44E26F96E1700805C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7856A45326F9710500805C84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7856A46026F97BB200805C84 /* MemoryGraphModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGraphModel.swift; sourceTree = "<group>"; };
@@ -37,6 +49,10 @@
 		7878E35325A4483900AEE227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7878E35825A4483900AEE227 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7878E36C25A4498600AEE227 /* ModalSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSheetView.swift; sourceTree = "<group>"; };
+		9445C7ED73FBB0732548628E /* ListExampleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
+		A357734999E6F13B8F0932E7 /* GridLayoutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GridLayoutView.swift; sourceTree = "<group>"; };
+		B21AA26CBA3716F8A4E97637 /* AnimationExampleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationExampleView.swift; sourceTree = "<group>"; };
+		D1C8EE61EF56C17CFEBFA1B8 /* AsyncAwaitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AsyncAwaitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +81,24 @@
 			path = Modal;
 			sourceTree = "<group>";
 		};
+		72856EEE821A2C53703D96AB /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				06A98812A91B076BF74A1347 /* FormExampleView.swift */,
+			);
+			name = Forms;
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		7497B19D6CC95B26CF10BDA8 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				9445C7ED73FBB0732548628E /* ListExampleView.swift */,
+			);
+			name = Lists;
+			path = Lists;
+			sourceTree = "<group>";
+		};
 		7856A44026F96BAD00805C84 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +114,14 @@
 			children = (
 				47826A0E2B6FAD0D0043DEC5 /* Modal */,
 				7856A45826F97B9600805C84 /* MemoryGraph */,
+				7497B19D6CC95B26CF10BDA8 /* Lists */,
+				72856EEE821A2C53703D96AB /* Forms */,
+				FB9C40A1BE5315CF1C9BC0E9 /* Animations */,
+				DB282FDD45D7ECCBD2516BBA /* Gestures */,
+				BD1C273267923CB30F9B70D3 /* StateManagement */,
+				A06766F30A559445E5E97BF4 /* GridLayouts */,
+				DDC40E6968266273CCF2369C /* AsyncAwait */,
+				82A925FE520D0980413BE0A3 /* TabViews */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -128,6 +170,60 @@
 				7878E35325A4483900AEE227 /* Info.plist */,
 			);
 			path = iOS;
+			sourceTree = "<group>";
+		};
+		82A925FE520D0980413BE0A3 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				5DB784DF4589095572C808AF /* TabViewExampleView.swift */,
+			);
+			name = TabViews;
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		A06766F30A559445E5E97BF4 /* GridLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				A357734999E6F13B8F0932E7 /* GridLayoutView.swift */,
+			);
+			name = GridLayouts;
+			path = GridLayouts;
+			sourceTree = "<group>";
+		};
+		BD1C273267923CB30F9B70D3 /* StateManagement */ = {
+			isa = PBXGroup;
+			children = (
+				6C5CCE678106E32A8455AE4F /* StateManagementView.swift */,
+			);
+			name = StateManagement;
+			path = StateManagement;
+			sourceTree = "<group>";
+		};
+		DB282FDD45D7ECCBD2516BBA /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				3172C9490396E8CEB55017A3 /* GestureExampleView.swift */,
+			);
+			name = Gestures;
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		DDC40E6968266273CCF2369C /* AsyncAwait */ = {
+			isa = PBXGroup;
+			children = (
+				D1C8EE61EF56C17CFEBFA1B8 /* AsyncAwaitView.swift */,
+			);
+			name = AsyncAwait;
+			path = AsyncAwait;
+			sourceTree = "<group>";
+		};
+		FB9C40A1BE5315CF1C9BC0E9 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B21AA26CBA3716F8A4E97637 /* AnimationExampleView.swift */,
+			);
+			name = Animations;
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +330,14 @@
 				7856A46F26F9831D00805C84 /* MemoryGraphWithoutLeakView.swift in Sources */,
 				7878E36D25A4498700AEE227 /* ModalSheetView.swift in Sources */,
 				7856A45426F9710500805C84 /* SceneDelegate.swift in Sources */,
+				2DBB09B8D69390D1192F389C /* ListExampleView.swift in Sources */,
+				5A43D4845D1ABE9E303C8992 /* FormExampleView.swift in Sources */,
+				9855B6CC3268D3AB035EAD3B /* AnimationExampleView.swift in Sources */,
+				0D59ED2A2733185463876E9C /* GestureExampleView.swift in Sources */,
+				C83F640CD6A72C0D38666AD5 /* StateManagementView.swift in Sources */,
+				C7C642F8C7055257217B40CF /* GridLayoutView.swift in Sources */,
+				7AC5BF072ECD4133221CC733 /* AsyncAwaitView.swift in Sources */,
+				041B2785BFAB5438E06B9471 /* TabViewExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
