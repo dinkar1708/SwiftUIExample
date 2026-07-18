@@ -68,6 +68,42 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
+                // NEW: Browse All Examples at the top
+                Section {
+                    NavigationLink(destination: ExamplesMainView()) {
+                        HStack(spacing: 16) {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 12)
+                                    .fill(LinearGradient(colors: [.orange.opacity(0.8), .orange], startPoint: .topLeading, endPoint: .bottomTrailing))
+                                    .frame(width: 60, height: 60)
+
+                                Image(systemName: "swift")
+                                    .font(.system(size: 32))
+                                    .foregroundColor(.white)
+                            }
+
+                            VStack(alignment: .leading, spacing: 6) {
+                                Text("Browse All Examples")
+                                    .font(.title3)
+                                    .fontWeight(.bold)
+                                Text("Easy → Medium → Advanced → Training")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            }
+
+                            Spacer()
+
+                            Image(systemName: "arrow.right.circle.fill")
+                                .foregroundColor(.orange)
+                                .font(.title2)
+                        }
+                        .padding(.vertical, 8)
+                    }
+                } header: {
+                    Text("Getting Started")
+                }
+
+                // ORIGINAL: All existing sections below
                 Section {
                     NavigationLink(destination: ListExampleView()) {
                         ExampleRow(

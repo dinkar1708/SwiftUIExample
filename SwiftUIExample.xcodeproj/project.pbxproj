@@ -27,10 +27,62 @@
 		7878E36125A4483900AEE227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7878E34B25A4483900AEE227 /* Assets.xcassets */; };
 		7878E36D25A4498700AEE227 /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* ModalSheetView.swift */; };
 		7878E36E25A4498700AEE227 /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878E36C25A4498600AEE227 /* ModalSheetView.swift */; };
+		78E058AD300B1D6900560150 /* MVVMexampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05895300B1D6900560150 /* MVVMexampleView.swift */; };
+		78E058AE300B1D6900560150 /* ViewLifeCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A2300B1D6900560150 /* ViewLifeCycleView.swift */; };
+		78E058AF300B1D6900560150 /* ScrollViewLazyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05892300B1D6900560150 /* ScrollViewLazyVStackView.swift */; };
+		78E058B0300B1D6900560150 /* StateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589A300B1D6900560150 /* StateExampleView.swift */; };
+		78E058B1300B1D6900560150 /* ExtensionOnAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05894300B1D6900560150 /* ExtensionOnAnyView.swift */; };
+		78E058B2300B1D6900560150 /* UIElementsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A5300B1D6900560150 /* UIElementsExampleView.swift */; };
+		78E058B3300B1D6900560150 /* SizeClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589F300B1D6900560150 /* SizeClassesView.swift */; };
+		78E058B4300B1D6900560150 /* EnvironmentObjectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05899300B1D6900560150 /* EnvironmentObjectExampleView.swift */; };
+		78E058B5300B1D6900560150 /* SystemEnvironmentExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A7300B1D6900560150 /* SystemEnvironmentExampleView.swift */; };
+		78E058B6300B1D6900560150 /* NavigationLinkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05891300B1D6900560150 /* NavigationLinkExampleView.swift */; };
+		78E058B7300B1D6900560150 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A1300B1D6900560150 /* HomeView.swift */; };
+		78E058B8300B1D6900560150 /* ViewBuilderCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05893300B1D6900560150 /* ViewBuilderCustomView.swift */; };
+		78E058B9300B1D6900560150 /* CleanCodeViewUsingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05898300B1D6900560150 /* CleanCodeViewUsingExtension.swift */; };
+		78E058BA300B1D6900560150 /* CustomEnvironmentValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589D300B1D6900560150 /* CustomEnvironmentValueView.swift */; };
+		78E058BB300B1D6900560150 /* ViewBuilderTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589E300B1D6900560150 /* ViewBuilderTipsView.swift */; };
+		78E058BC300B1D6900560150 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05890300B1D6900560150 /* GeometryReaderView.swift */; };
+		78E058BD300B1D6900560150 /* SFSymbolsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A8300B1D6900560150 /* SFSymbolsExampleView.swift */; };
+		78E058BE300B1D6900560150 /* SimpleZoomAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A6300B1D6900560150 /* SimpleZoomAnimationView.swift */; };
+		78E058BF300B1D6900560150 /* StackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A3300B1D6900560150 /* StackExampleView.swift */; };
+		78E058C0300B1D6900560150 /* CleanCodeViewFunctionVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05897300B1D6900560150 /* CleanCodeViewFunctionVariable.swift */; };
+		78E058C1300B1D6900560150 /* SpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A4300B1D6900560150 /* SpacerExampleView.swift */; };
+		78E058C2300B1D6900560150 /* BindingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589B300B1D6900560150 /* BindingExampleView.swift */; };
+		78E058C3300B1D6900560150 /* ViewModifierExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058AA300B1D6900560150 /* ViewModifierExampleView.swift */; };
+		78E058C4300B1D6900560150 /* ColorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A9300B1D6900560150 /* ColorExampleView.swift */; };
+		78E058C5300B1D6900560150 /* ObservableObjectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589C300B1D6900560150 /* ObservableObjectExampleView.swift */; };
+		78E058C6300B1D6900560150 /* MVVMexampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05895300B1D6900560150 /* MVVMexampleView.swift */; };
+		78E058C7300B1D6900560150 /* ViewLifeCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A2300B1D6900560150 /* ViewLifeCycleView.swift */; };
+		78E058C8300B1D6900560150 /* ScrollViewLazyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05892300B1D6900560150 /* ScrollViewLazyVStackView.swift */; };
+		78E058C9300B1D6900560150 /* StateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589A300B1D6900560150 /* StateExampleView.swift */; };
+		78E058CA300B1D6900560150 /* ExtensionOnAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05894300B1D6900560150 /* ExtensionOnAnyView.swift */; };
+		78E058CB300B1D6900560150 /* UIElementsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A5300B1D6900560150 /* UIElementsExampleView.swift */; };
+		78E058CC300B1D6900560150 /* SizeClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589F300B1D6900560150 /* SizeClassesView.swift */; };
+		78E058CD300B1D6900560150 /* EnvironmentObjectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05899300B1D6900560150 /* EnvironmentObjectExampleView.swift */; };
+		78E058CE300B1D6900560150 /* SystemEnvironmentExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A7300B1D6900560150 /* SystemEnvironmentExampleView.swift */; };
+		78E058CF300B1D6900560150 /* NavigationLinkExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05891300B1D6900560150 /* NavigationLinkExampleView.swift */; };
+		78E058D0300B1D6900560150 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A1300B1D6900560150 /* HomeView.swift */; };
+		78E058D1300B1D6900560150 /* ViewBuilderCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05893300B1D6900560150 /* ViewBuilderCustomView.swift */; };
+		78E058D2300B1D6900560150 /* CleanCodeViewUsingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05898300B1D6900560150 /* CleanCodeViewUsingExtension.swift */; };
+		78E058D3300B1D6900560150 /* CustomEnvironmentValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589D300B1D6900560150 /* CustomEnvironmentValueView.swift */; };
+		78E058D4300B1D6900560150 /* ViewBuilderTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589E300B1D6900560150 /* ViewBuilderTipsView.swift */; };
+		78E058D5300B1D6900560150 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05890300B1D6900560150 /* GeometryReaderView.swift */; };
+		78E058D6300B1D6900560150 /* SFSymbolsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A8300B1D6900560150 /* SFSymbolsExampleView.swift */; };
+		78E058D7300B1D6900560150 /* SimpleZoomAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A6300B1D6900560150 /* SimpleZoomAnimationView.swift */; };
+		78E058D8300B1D6900560150 /* StackExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A3300B1D6900560150 /* StackExampleView.swift */; };
+		78E058D9300B1D6900560150 /* CleanCodeViewFunctionVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E05897300B1D6900560150 /* CleanCodeViewFunctionVariable.swift */; };
+		78E058DA300B1D6900560150 /* SpacerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A4300B1D6900560150 /* SpacerExampleView.swift */; };
+		78E058DB300B1D6900560150 /* BindingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589B300B1D6900560150 /* BindingExampleView.swift */; };
+		78E058DC300B1D6900560150 /* ViewModifierExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058AA300B1D6900560150 /* ViewModifierExampleView.swift */; };
+		78E058DD300B1D6900560150 /* ColorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E058A9300B1D6900560150 /* ColorExampleView.swift */; };
+		78E058DE300B1D6900560150 /* ObservableObjectExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0589C300B1D6900560150 /* ObservableObjectExampleView.swift */; };
 		7AC5BF072ECD4133221CC733 /* AsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C8EE61EF56C17CFEBFA1B8 /* AsyncAwaitView.swift */; };
 		9855B6CC3268D3AB035EAD3B /* AnimationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AA26CBA3716F8A4E97637 /* AnimationExampleView.swift */; };
 		C7C642F8C7055257217B40CF /* GridLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A357734999E6F13B8F0932E7 /* GridLayoutView.swift */; };
 		C83F640CD6A72C0D38666AD5 /* StateManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5CCE678106E32A8455AE4F /* StateManagementView.swift */; };
+		F1A2B3C4D5E6F7890A1B2C3E /* ExamplesMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2B3C4D5E6F7890A1B2C3D /* ExamplesMainView.swift */; };
+		F1A2B3C4D5E6F7890A1B2C3F /* ExamplesMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2B3C4D5E6F7890A1B2C3D /* ExamplesMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,10 +101,36 @@
 		7878E35325A4483900AEE227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7878E35825A4483900AEE227 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7878E36C25A4498600AEE227 /* ModalSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSheetView.swift; sourceTree = "<group>"; };
+		78E05890300B1D6900560150 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		78E05891300B1D6900560150 /* NavigationLinkExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkExampleView.swift; sourceTree = "<group>"; };
+		78E05892300B1D6900560150 /* ScrollViewLazyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLazyVStackView.swift; sourceTree = "<group>"; };
+		78E05893300B1D6900560150 /* ViewBuilderCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderCustomView.swift; sourceTree = "<group>"; };
+		78E05894300B1D6900560150 /* ExtensionOnAnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionOnAnyView.swift; sourceTree = "<group>"; };
+		78E05895300B1D6900560150 /* MVVMexampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMexampleView.swift; sourceTree = "<group>"; };
+		78E05897300B1D6900560150 /* CleanCodeViewFunctionVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanCodeViewFunctionVariable.swift; sourceTree = "<group>"; };
+		78E05898300B1D6900560150 /* CleanCodeViewUsingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanCodeViewUsingExtension.swift; sourceTree = "<group>"; };
+		78E05899300B1D6900560150 /* EnvironmentObjectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectExampleView.swift; sourceTree = "<group>"; };
+		78E0589A300B1D6900560150 /* StateExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExampleView.swift; sourceTree = "<group>"; };
+		78E0589B300B1D6900560150 /* BindingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExampleView.swift; sourceTree = "<group>"; };
+		78E0589C300B1D6900560150 /* ObservableObjectExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectExampleView.swift; sourceTree = "<group>"; };
+		78E0589D300B1D6900560150 /* CustomEnvironmentValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentValueView.swift; sourceTree = "<group>"; };
+		78E0589E300B1D6900560150 /* ViewBuilderTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderTipsView.swift; sourceTree = "<group>"; };
+		78E0589F300B1D6900560150 /* SizeClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesView.swift; sourceTree = "<group>"; };
+		78E058A1300B1D6900560150 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		78E058A2300B1D6900560150 /* ViewLifeCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLifeCycleView.swift; sourceTree = "<group>"; };
+		78E058A3300B1D6900560150 /* StackExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExampleView.swift; sourceTree = "<group>"; };
+		78E058A4300B1D6900560150 /* SpacerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerExampleView.swift; sourceTree = "<group>"; };
+		78E058A5300B1D6900560150 /* UIElementsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementsExampleView.swift; sourceTree = "<group>"; };
+		78E058A6300B1D6900560150 /* SimpleZoomAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleZoomAnimationView.swift; sourceTree = "<group>"; };
+		78E058A7300B1D6900560150 /* SystemEnvironmentExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemEnvironmentExampleView.swift; sourceTree = "<group>"; };
+		78E058A8300B1D6900560150 /* SFSymbolsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsExampleView.swift; sourceTree = "<group>"; };
+		78E058A9300B1D6900560150 /* ColorExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExampleView.swift; sourceTree = "<group>"; };
+		78E058AA300B1D6900560150 /* ViewModifierExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierExampleView.swift; sourceTree = "<group>"; };
 		9445C7ED73FBB0732548628E /* ListExampleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
 		A357734999E6F13B8F0932E7 /* GridLayoutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GridLayoutView.swift; sourceTree = "<group>"; };
 		B21AA26CBA3716F8A4E97637 /* AnimationExampleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationExampleView.swift; sourceTree = "<group>"; };
 		D1C8EE61EF56C17CFEBFA1B8 /* AsyncAwaitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AsyncAwaitView.swift; sourceTree = "<group>"; };
+		E1A2B3C4D5E6F7890A1B2C3D /* ExamplesMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +164,6 @@
 			children = (
 				06A98812A91B076BF74A1347 /* FormExampleView.swift */,
 			);
-			name = Forms;
 			path = Forms;
 			sourceTree = "<group>";
 		};
@@ -95,7 +172,6 @@
 			children = (
 				9445C7ED73FBB0732548628E /* ListExampleView.swift */,
 			);
-			name = Lists;
 			path = Lists;
 			sourceTree = "<group>";
 		};
@@ -148,6 +224,7 @@
 		7878E34825A4483800AEE227 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				78E058AC300B1D6900560150 /* Examples */,
 				7856A44326F96BBA00805C84 /* Feature */,
 				7856A44026F96BAD00805C84 /* Configuration */,
 				7878E34B25A4483900AEE227 /* Assets.xcassets */,
@@ -172,12 +249,68 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
+		78E05896300B1D6900560150 /* Advance */ = {
+			isa = PBXGroup;
+			children = (
+				78E05890300B1D6900560150 /* GeometryReaderView.swift */,
+				78E05891300B1D6900560150 /* NavigationLinkExampleView.swift */,
+				78E05892300B1D6900560150 /* ScrollViewLazyVStackView.swift */,
+				78E05893300B1D6900560150 /* ViewBuilderCustomView.swift */,
+				78E05894300B1D6900560150 /* ExtensionOnAnyView.swift */,
+				78E05895300B1D6900560150 /* MVVMexampleView.swift */,
+			);
+			path = Advance;
+			sourceTree = "<group>";
+		};
+		78E058A0300B1D6900560150 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				78E05897300B1D6900560150 /* CleanCodeViewFunctionVariable.swift */,
+				78E05898300B1D6900560150 /* CleanCodeViewUsingExtension.swift */,
+				78E05899300B1D6900560150 /* EnvironmentObjectExampleView.swift */,
+				78E0589A300B1D6900560150 /* StateExampleView.swift */,
+				78E0589B300B1D6900560150 /* BindingExampleView.swift */,
+				78E0589C300B1D6900560150 /* ObservableObjectExampleView.swift */,
+				78E0589D300B1D6900560150 /* CustomEnvironmentValueView.swift */,
+				78E0589E300B1D6900560150 /* ViewBuilderTipsView.swift */,
+				78E0589F300B1D6900560150 /* SizeClassesView.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		78E058AB300B1D6900560150 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				78E058A1300B1D6900560150 /* HomeView.swift */,
+				78E058A2300B1D6900560150 /* ViewLifeCycleView.swift */,
+				78E058A3300B1D6900560150 /* StackExampleView.swift */,
+				78E058A4300B1D6900560150 /* SpacerExampleView.swift */,
+				78E058A5300B1D6900560150 /* UIElementsExampleView.swift */,
+				78E058A6300B1D6900560150 /* SimpleZoomAnimationView.swift */,
+				78E058A7300B1D6900560150 /* SystemEnvironmentExampleView.swift */,
+				78E058A8300B1D6900560150 /* SFSymbolsExampleView.swift */,
+				78E058A9300B1D6900560150 /* ColorExampleView.swift */,
+				78E058AA300B1D6900560150 /* ViewModifierExampleView.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		78E058AC300B1D6900560150 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2B3C4D5E6F7890A1B2C3D /* ExamplesMainView.swift */,
+				78E05896300B1D6900560150 /* Advance */,
+				78E058A0300B1D6900560150 /* Medium */,
+				78E058AB300B1D6900560150 /* Easy */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
 		82A925FE520D0980413BE0A3 /* TabViews */ = {
 			isa = PBXGroup;
 			children = (
 				5DB784DF4589095572C808AF /* TabViewExampleView.swift */,
 			);
-			name = TabViews;
 			path = TabViews;
 			sourceTree = "<group>";
 		};
@@ -186,7 +319,6 @@
 			children = (
 				A357734999E6F13B8F0932E7 /* GridLayoutView.swift */,
 			);
-			name = GridLayouts;
 			path = GridLayouts;
 			sourceTree = "<group>";
 		};
@@ -195,7 +327,6 @@
 			children = (
 				6C5CCE678106E32A8455AE4F /* StateManagementView.swift */,
 			);
-			name = StateManagement;
 			path = StateManagement;
 			sourceTree = "<group>";
 		};
@@ -204,7 +335,6 @@
 			children = (
 				3172C9490396E8CEB55017A3 /* GestureExampleView.swift */,
 			);
-			name = Gestures;
 			path = Gestures;
 			sourceTree = "<group>";
 		};
@@ -213,7 +343,6 @@
 			children = (
 				D1C8EE61EF56C17CFEBFA1B8 /* AsyncAwaitView.swift */,
 			);
-			name = AsyncAwait;
 			path = AsyncAwait;
 			sourceTree = "<group>";
 		};
@@ -222,7 +351,6 @@
 			children = (
 				B21AA26CBA3716F8A4E97637 /* AnimationExampleView.swift */,
 			);
-			name = Animations;
 			path = Animations;
 			sourceTree = "<group>";
 		};
@@ -335,9 +463,35 @@
 				9855B6CC3268D3AB035EAD3B /* AnimationExampleView.swift in Sources */,
 				0D59ED2A2733185463876E9C /* GestureExampleView.swift in Sources */,
 				C83F640CD6A72C0D38666AD5 /* StateManagementView.swift in Sources */,
+				78E058AD300B1D6900560150 /* MVVMexampleView.swift in Sources */,
+				78E058AE300B1D6900560150 /* ViewLifeCycleView.swift in Sources */,
+				78E058AF300B1D6900560150 /* ScrollViewLazyVStackView.swift in Sources */,
+				78E058B0300B1D6900560150 /* StateExampleView.swift in Sources */,
+				78E058B1300B1D6900560150 /* ExtensionOnAnyView.swift in Sources */,
+				78E058B2300B1D6900560150 /* UIElementsExampleView.swift in Sources */,
+				78E058B3300B1D6900560150 /* SizeClassesView.swift in Sources */,
+				78E058B4300B1D6900560150 /* EnvironmentObjectExampleView.swift in Sources */,
+				78E058B5300B1D6900560150 /* SystemEnvironmentExampleView.swift in Sources */,
+				78E058B6300B1D6900560150 /* NavigationLinkExampleView.swift in Sources */,
+				78E058B7300B1D6900560150 /* HomeView.swift in Sources */,
+				78E058B8300B1D6900560150 /* ViewBuilderCustomView.swift in Sources */,
+				78E058B9300B1D6900560150 /* CleanCodeViewUsingExtension.swift in Sources */,
+				78E058BA300B1D6900560150 /* CustomEnvironmentValueView.swift in Sources */,
+				78E058BB300B1D6900560150 /* ViewBuilderTipsView.swift in Sources */,
+				78E058BC300B1D6900560150 /* GeometryReaderView.swift in Sources */,
+				78E058BD300B1D6900560150 /* SFSymbolsExampleView.swift in Sources */,
+				78E058BE300B1D6900560150 /* SimpleZoomAnimationView.swift in Sources */,
+				78E058BF300B1D6900560150 /* StackExampleView.swift in Sources */,
+				78E058C0300B1D6900560150 /* CleanCodeViewFunctionVariable.swift in Sources */,
+				78E058C1300B1D6900560150 /* SpacerExampleView.swift in Sources */,
+				78E058C2300B1D6900560150 /* BindingExampleView.swift in Sources */,
+				78E058C3300B1D6900560150 /* ViewModifierExampleView.swift in Sources */,
+				78E058C4300B1D6900560150 /* ColorExampleView.swift in Sources */,
+				78E058C5300B1D6900560150 /* ObservableObjectExampleView.swift in Sources */,
 				C7C642F8C7055257217B40CF /* GridLayoutView.swift in Sources */,
 				7AC5BF072ECD4133221CC733 /* AsyncAwaitView.swift in Sources */,
 				041B2785BFAB5438E06B9471 /* TabViewExampleView.swift in Sources */,
+				F1A2B3C4D5E6F7890A1B2C3E /* ExamplesMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +503,35 @@
 				7856A45026F96E1700805C84 /* AppDelegate.swift in Sources */,
 				7856A46226F97BB200805C84 /* MemoryGraphModel.swift in Sources */,
 				7878E35D25A4483900AEE227 /* SwiftUIExampleApp.swift in Sources */,
+				78E058C6300B1D6900560150 /* MVVMexampleView.swift in Sources */,
+				78E058C7300B1D6900560150 /* ViewLifeCycleView.swift in Sources */,
+				78E058C8300B1D6900560150 /* ScrollViewLazyVStackView.swift in Sources */,
+				78E058C9300B1D6900560150 /* StateExampleView.swift in Sources */,
+				78E058CA300B1D6900560150 /* ExtensionOnAnyView.swift in Sources */,
+				78E058CB300B1D6900560150 /* UIElementsExampleView.swift in Sources */,
+				78E058CC300B1D6900560150 /* SizeClassesView.swift in Sources */,
+				78E058CD300B1D6900560150 /* EnvironmentObjectExampleView.swift in Sources */,
+				78E058CE300B1D6900560150 /* SystemEnvironmentExampleView.swift in Sources */,
+				78E058CF300B1D6900560150 /* NavigationLinkExampleView.swift in Sources */,
+				78E058D0300B1D6900560150 /* HomeView.swift in Sources */,
+				78E058D1300B1D6900560150 /* ViewBuilderCustomView.swift in Sources */,
+				78E058D2300B1D6900560150 /* CleanCodeViewUsingExtension.swift in Sources */,
+				78E058D3300B1D6900560150 /* CustomEnvironmentValueView.swift in Sources */,
+				78E058D4300B1D6900560150 /* ViewBuilderTipsView.swift in Sources */,
+				78E058D5300B1D6900560150 /* GeometryReaderView.swift in Sources */,
+				78E058D6300B1D6900560150 /* SFSymbolsExampleView.swift in Sources */,
+				78E058D7300B1D6900560150 /* SimpleZoomAnimationView.swift in Sources */,
+				78E058D8300B1D6900560150 /* StackExampleView.swift in Sources */,
+				78E058D9300B1D6900560150 /* CleanCodeViewFunctionVariable.swift in Sources */,
+				78E058DA300B1D6900560150 /* SpacerExampleView.swift in Sources */,
+				78E058DB300B1D6900560150 /* BindingExampleView.swift in Sources */,
+				78E058DC300B1D6900560150 /* ViewModifierExampleView.swift in Sources */,
+				78E058DD300B1D6900560150 /* ColorExampleView.swift in Sources */,
+				78E058DE300B1D6900560150 /* ObservableObjectExampleView.swift in Sources */,
 				7856A47026F9831D00805C84 /* MemoryGraphWithoutLeakView.swift in Sources */,
 				7878E36E25A4498700AEE227 /* ModalSheetView.swift in Sources */,
 				7856A45526F9710500805C84 /* SceneDelegate.swift in Sources */,
+				F1A2B3C4D5E6F7890A1B2C3F /* ExamplesMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
